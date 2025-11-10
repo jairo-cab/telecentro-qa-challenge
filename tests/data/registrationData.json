@@ -1,0 +1,62 @@
+{
+  "validUser": {
+    "fullName": "Juan Pérez González",
+    "email": "juan.perez@correo.com",
+    "age": "28",
+    "password": "Pass123",
+    "confirmPassword": "Pass123"
+  },
+  "invalidEmail": {
+    "fullName": "María López",
+    "email": "email-invalido",
+    "age": "25",
+    "password": "Pass123",
+    "confirmPassword": "Pass123"
+  },
+  "passwordMismatch": {
+    "fullName": "Carlos Rodríguez",
+    "email": "carlos@correo.com",
+    "password": "Pass123",
+    "confirmPassword": "Pass456"
+  },
+  "nonNumericAge": {
+    "fullName": "Ana Torres",
+    "email": "ana@correo.com",
+    "age": "veinticinco",
+    "password": "Pass123",
+    "confirmPassword": "Pass123"
+  },
+  "negativeAge": {
+    "fullName": "Pedro Martínez",
+    "email": "pedro@correo.com",
+    "age": "-1",
+    "password": "Pass123",
+    "confirmPassword": "Pass123"
+  },
+  "duplicateEmail": {
+    "fullName": "Usuario Duplicado",
+    "email": "usuario@ejemplo.com",
+    "password": "Pass123",
+    "confirmPassword": "Pass123"
+  },
+  "invalidName": {
+    "fullName": "Usuario123@#",
+    "email": "usuario@correo.com",
+    "password": "Pass123",
+    "confirmPassword": "Pass123"
+  },
+  "shortPassword": {
+    "fullName": "Laura Gómez",
+    "email": "laura@correo.com",
+    "password": "12345",
+    "confirmPassword": "12345"
+  },
+  "keyboardNavigation": {
+    "fullName": "Roberto Sánchez",
+    "email": "roberto@correo.com",
+    "age": "30",
+    "password": "Pass123",
+    "confirmPassword": "Pass123"
+  }
+}
+
