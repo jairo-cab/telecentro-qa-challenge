@@ -2,6 +2,7 @@
 
 ![Playwright](https://img.shields.io/badge/Playwright-1.56.1-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-16+-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Browser](https://img.shields.io/badge/Browser-Chromium-2EAD33?style=flat-square&logo=google-chrome&logoColor=white)
 ![Tests](https://img.shields.io/badge/Tests-10%20passing-success?style=flat-square)
@@ -37,15 +38,14 @@ Instalación:
 
 ## CI/CD
 
-![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
-Los tests se ejecutan automáticamente:
-- **2 veces al día** (9 AM y 6 PM UTC) mediante cron schedule
-- En cada **push** a la rama main
-- En cada **pull request**
-- **Manualmente** desde la pestaña Actions en GitHub
+El proyecto incluye integración continua mediante GitHub Actions. Los tests se ejecutan automáticamente:
+- Dos veces al día (9 AM y 6 PM UTC)
+- Con cada cambio en la rama principal
+- En revisiones de código (pull requests)
+- A demanda desde la interfaz de GitHub
 
-Los reportes HTML se guardan como artefactos por 7 días.
+Los reportes de ejecución quedan disponibles como artefactos durante 7 días.
 
 ---
 
