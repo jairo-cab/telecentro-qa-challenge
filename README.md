@@ -35,6 +35,20 @@ Instalación:
 
 ---
 
+## CI/CD
+
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+Los tests se ejecutan automáticamente:
+- **2 veces al día** (9 AM y 6 PM UTC) mediante cron schedule
+- En cada **push** a la rama main
+- En cada **pull request**
+- **Manualmente** desde la pestaña Actions en GitHub
+
+Los reportes HTML se guardan como artefactos por 7 días.
+
+---
+
 ## Estructura
 
 ```
