@@ -56,6 +56,7 @@ export default defineConfig({
     launchOptions: {
       slowMo: process.env.SLOWMO ? parseInt(process.env.SLOWMO) : 0,
     },
+    timezoneId: 'America/Argentina/Buenos_Aires',
   },
 
   /* Configure projects for major browsers */
