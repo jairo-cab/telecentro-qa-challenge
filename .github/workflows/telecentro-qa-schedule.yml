@@ -10,9 +10,12 @@ on:
   workflow_dispatch:  # Permite ejecución manual desde GitHub
 
 jobs:
-  test:
+  e2e:
+    name: Playwright E2E Tests
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      SLOWMO: '0'
 
     steps:
       - name: Checkout code
