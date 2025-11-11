@@ -19,11 +19,11 @@ export default defineConfig({
 
   /*
    * Workers optimizado:
-   * - CI: 1 worker (ambiente controlado, recursos limitados)
+   * - CI: 3 worker (ambiente controlado, recursos limitados)
    * - Local: 3 workers (balance entre velocidad y recursos para 10 tests)
    * Con 10 tests, más de 3-4 workers no aporta mejora significativa
    */
-  workers: process.env.CI ? 1 : 3,
+  workers: process.env.CI ? 3 : 3,
 
   /*
    * Reporters:
