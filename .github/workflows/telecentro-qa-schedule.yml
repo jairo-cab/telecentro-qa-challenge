@@ -1,12 +1,12 @@
 name: Telecentro QA - Scheduled tests
 
 on:
-  schedule:
-    - cron: '0 12,21 * * *'  # 9 AM y 6 PM UTC diariamente
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  #schedule:
+  #  - cron: '0 12,21 * * *'  # 9 AM y 6 PM UTC diariamente
+  #push:
+  #  branches: [main]
+  #pull_request:
+  #  branches: [main]
   workflow_dispatch:  # Permite ejecución manual desde GitHub
 
 jobs:
